@@ -18,7 +18,7 @@ your build.
 ## Install
 
 ```bash
-pip install git+https://github.com/prasadabhishek/cronlint.git
+pip install cronlint-cli
 ```
 
 From a clone:

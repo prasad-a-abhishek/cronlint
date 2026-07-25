@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cronlint"
+name = "cronlint-cli"
 version = "0.1.0"
 description = "Validate cron expressions from the CLI or as a Python library."
 readme = "README.md"
@@ -16,7 +16,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Topic :: Software Development :: Libraries :: Python Modules",
-    "Topic :: System :: Cron and Scheduling",
+    "Topic :: Utilities",
 ]
 # Intentionally zero runtime dependencies — the spec does not require any.
 dependencies = []
